@@ -5,7 +5,7 @@ A react native component simulation of parabolic motion.
 ## Install
 
 ```bash
-$ npm i react-native-parabolic --save
+$ npm i @imokhles/react-native-parabolic --save
 ```
 ## Show case
 
