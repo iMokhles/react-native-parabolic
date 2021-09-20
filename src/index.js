@@ -1,25 +1,27 @@
 /**
  * react-native-parabolic
  * @author Lei
- * @repo https://github.com/stoneWeb/react-native-parabolic
+ * @repo https://github.com/imokhles/react-native-parabolic
  */
 'use strict';
 
- import React, { Component } from 'react'
- import PropTypes from 'prop-types'
- import {
+import {
+   Animated,
    View,
-   Animated
- } from 'react-native'
+   ViewPropTypes
+} from 'react-native'
+import React, { Component } from 'react'
 
- export default class extends Component {
+import PropTypes from 'prop-types'
+
+export default class extends Component {
 
    static propTypes = {
      renderChildren: PropTypes.func,
      animateEnd: PropTypes.func,
      curvature: PropTypes.number,
      duration: PropTypes.number,
-     style: View.propTypes.style
+     style:  ViewPropTypes.style
    }
 
    static defaultProps = {

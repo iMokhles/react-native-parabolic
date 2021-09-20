@@ -1,7 +1,7 @@
 /**
  * react-native-parabolic
  * @author Lei
- * @repo https://github.com/stoneWeb/react-native-parabolic
+ * @repo https://github.com/imokhles/react-native-parabolic
  */
 'use strict';
 
